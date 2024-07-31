@@ -1,10 +1,3 @@
----
-layout: default
-title: Home
----
-
-{% include_relative README.md %}
-
 ##### Coding Badges
 ### LeetCode <img height=30px width=30px align='right' src='https://upload.wikimedia.org/wikipedia/commons/8/8e/LeetCode_Logo_1.png'>
 <img height=100px width=100px src='https://assets.leetcode.com/users/images/99b27168-c5ca-420d-9453-42479b203462_1705823606.379844.png'><img height=100px width=100px src='Badges/leetcode-2024-50-lg.png'><img height=100px width=100px src='Badges/leetcode-Introduction_to_Pandas_Badge.png'>
