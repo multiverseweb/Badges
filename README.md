@@ -1,5 +1,8 @@
 ##### Coding Badges
 
+### GSSoC'24  <img height=30px width=30px align='right' src='https://user-images.githubusercontent.com/63473496/153487849-4f094c16-d21c-463e-9971-98a8af7ba372.png'>
+<img height=100px width=100px src='Badges/Postman White.png'><img height=100px width=100px src='Badges/5.png'><img height=100px width=100px src='Badges/4.png'><img height=100px width=100px src='Badges/3.png'><img height=100px width=100px src='Badges/2.png'><img height=100px width=100px src='Badges/1.png'>
+
 ### LeetCode <img height=30px width=30px align='right' src='https://upload.wikimedia.org/wikipedia/commons/8/8e/LeetCode_Logo_1.png'>
 <img height=100px width=100px src='https://assets.leetcode.com/users/images/99b27168-c5ca-420d-9453-42479b203462_1705823606.379844.png'><img height=100px width=100px src='Badges/leetcode-2024-50-lg.png'><img height=100px width=100px src='Badges/leetcode_SQL.png'><img height=100px width=100px src='Badges/leetcode-Introduction_to_Pandas_Badge.png'>
 
@@ -9,8 +12,6 @@
 ### HackerRank <img height=30px width=30px align='right' src='https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/160_Hackerrank_logo_logos-512.png'>
 <img height=100px width=100px src='Badges/hackerrank_python_5.png'><img height=100px width=100px src='Badges/hackerrank_python_4.png'><img height=100px width=100px src='Badges/python_3star_hackerrank.png'><img height=100px width=100px src='Badges/hacherrank_python.png'><img height=100px width=100px src='Badges/hackerrank_python_1.png'>
 
-### GSSoC'24  <img height=30px width=30px align='right' src='https://user-images.githubusercontent.com/63473496/153487849-4f094c16-d21c-463e-9971-98a8af7ba372.png'>
-<img height=100px width=100px src='Badges/Postman White.png'><img height=100px width=100px src='Badges/5.png'><img height=100px width=100px src='Badges/4.png'><img height=100px width=100px src='Badges/3.png'><img height=100px width=100px src='Badges/2.png'><img height=100px width=100px src='Badges/1.png'>
 ### Other <img height=30px width=30px align='right' src='https://cdn-icons-png.flaticon.com/512/711/711284.png'>
 <img height=100px width=100px src='Badges/gdev-created_profile.svg'>
 
