@@ -1,5 +1,5 @@
 # Coding Badges
-|______________|______________|______________|______________|______________|______________|______________|
+|_______________|_______________|_______________|_______________|_______________|_______________|_______________|
 |-|-|-|-|-|-|-|
 |GSSoc'24|<img height=100px width=100px src='Badges/5.png'>|<img height=100px width=100px src='Badges/4.png'>|<img height=100px width=100px src='Badges/3.png'>|<img height=100px width=100px src='Badges/2.png'>|<img height=100px width=100px src='Badges/1.png'>||
 |LeetCode|<img height=100px width=100px src='https://assets.leetcode.com/users/images/99b27168-c5ca-420d-9453-42479b203462_1705823606.379844.png'>| <img height=100px width=100px src='Badges/leetcode-2024-50-lg.png'>|<img height=100px width=100px src='Badges/leetcode_SQL.png'> |<img height=100px width=100px src='Badges/leetcode-Introduction_to_Pandas_Badge.png'>|||
@@ -8,6 +8,6 @@
 |Other|<img height=100px width=100px src='Badges/Postman White.png'>|<img height=100px width=100px src='Badges/self_starter_hashnode.png'>|<img height=100px width=100px src='Badges/gdev-created_profile.svg'>||||
 
 # Badges on the way
-|______________|______________|______________|______________|
+|_______________|_______________|_______________|_______________|
 |-|-|-|-|
 |<img height=100px width=100px src='https://camo.githubusercontent.com/a8c9e62c43e6d2b3015763decd6dbd168c48159a9f85dc91be655084b176ed86/68747470733a2f2f6769746875622e6769746875626173736574732e636f6d2f696d616765732f6d6f64756c65732f70726f66696c652f616368696576656d656e74732f7374617273747275636b2d64656661756c742e706e67'>|<img height=100px width=100px src='https://camo.githubusercontent.com/30ea73e658b66ea9e9599443837ec96559ae76d64e031414996157e311e3f72e/68747470733a2f2f6769746875622e6769746875626173736574732e636f6d2f696d616765732f6d6f64756c65732f70726f66696c652f616368696576656d656e74732f6172637469632d636f64652d7661756c742d636f6e7472696275746f722d64656661756c742e706e67'>|<img height=100px width=100px src='https://camo.githubusercontent.com/52a384459bb0ad9ad0093f9070a14c84ef0d4b5b1372f00a3b9ef98f607071d7/68747470733a2f2f6769746875622e6769746875626173736574732e636f6d2f696d616765732f6d6f64756c65732f70726f66696c652f616368696576656d656e74732f6d6172732d323032302d636f6e7472696275746f722d64656661756c742e706e67'>|<img height=100px width=100px src='https://camo.githubusercontent.com/377db1e303a8ed9960613167f01ee9134373e51aaedecdeebf667a31527b6763/68747470733a2f2f6769746875622e6769746875626173736574732e636f6d2f696d616765732f6d6f64756c65732f70726f66696c652f616368696576656d656e74732f68656172742d6f6e2d796f75722d736c656576652d64656661756c742e706e67'>|
