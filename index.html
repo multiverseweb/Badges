@@ -1,11 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tejas' Coding Badges</title>
     <link rel="icon" type="image/x-icon" href="Badges/1.png">
     <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        ::-webkit-scrollbar {
+            width: 4px;
+            height: 4px;
+        }
+
+        ::-webkit-scrollbar-track {
+            box-shadow: inset 0 0 5px rgba(128, 128, 128, 0.504);
+            border-radius: 2px;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: rgba(140, 140, 140, 0.693);
+            border-radius: 10px;
+        }
+
         body {
             background-color: rgba(0, 0, 0, 0.877);
             color: #a3a3a3;
@@ -13,43 +34,78 @@
             padding: 0;
             font-family: Arial, sans-serif;
         }
-        h1 {
+
+        .title {
+            font-size: 27px;
+            font-weight: 600;
             text-align: center;
-            color: #ffffffc3;
+            color: #ffffff;
+            background-color: #2d2d2dbb;
+            backdrop-filter: blur(20px);
+            position: fixed;
+            width: 100%;
+            top: 0;
+            padding: 10px;
+            z-index: 20;
+            box-shadow: 0 0 20px rgb(0, 0, 0);
+            border-bottom: 1px solid rgba(128, 128, 128, 0.236);
         }
+
         table {
             width: 100%;
             border-collapse: collapse;
             overflow-x: auto;
+            margin-top: 80px;
+            margin-left: 20px;
+            margin-right: 20px;
+            margin-bottom: 20px;
+            filter: drop-shadow(0 0 10px rgb(0, 0, 0));
         }
-        th, td {
-            border: 1px solid #7070705f;
+        tr{
+            color: #ffffff;
+            background-color: #2d2d2dbb;
+            backdrop-filter: blur(2px);
+        }
+
+        th,
+        td {
+            border: 1px solid #7070703f;
             padding: 8px;
             text-align: center;
         }
-        .small{
+
+        .small {
             max-width: 100px;
-            white-space:pre-wrap;
-            word-break:break-word
+            white-space: pre-wrap;
+            word-break: break-word
         }
+
         img {
             display: block;
             margin: 0 auto;
-            width:100px;
+            width: 100px;
             height: 100px;
+            filter: drop-shadow(0 0 10px rgb(0, 0, 0)) drop-shadow(0 0 2px rgb(0, 0, 0));
+            transition-duration: 0.4s;
         }
+        img:hover{
+            filter: drop-shadow(0 0 0px rgb(0, 0, 0));
+        }
+
         .scrollable-table {
             overflow-x: auto;
             display: block;
             white-space: nowrap;
         }
-        .small{
+
+        .small {
             font-size: 10px;
         }
     </style>
 </head>
+
 <body>
-    <h1 id="coding-badges">Tejas' Coding Badges</h1>
+    <p id="coding-badges" class="title">Tejas' Coding Badges</p>
     <div class="scrollable-table">
         <table>
             <tbody>
@@ -60,7 +116,7 @@
                     <td><img height="100px" width="100px" src='Badges/3.png'></td>
                     <td><img height="100px" width="100px" src='Badges/2.png'></td>
                     <td><img height="100px" width="100px" src='Badges/1.png'></td>
-                    <td></td>
+
                 </tr>
                 <tr class="small">
                     <td></td>
@@ -69,17 +125,19 @@
                     <td>Trailblazer</td>
                     <td>Adventurer</td>
                     <td>Explorer</td>
-
                 </tr>
-                
-<tr>
+
+                <tr>
                     <td>GitHub</td>
                     <td><img height="100px" width="100px" src='Badges/galaxy-brain-default.png'></td>
                     <td><img height="100px" width="100px" src='Badges/github-pull-shark.png'></td>
                     <td><img height="100px" width="100px" src='Badges/github-quickdraw.png'></td>
-                    <td><img height="100px" width="100px" src='https://camo.githubusercontent.com/2ae0861e97bfba2d3250ceb7db103356b3b35161e273d48120199382d6eac03a/68747470733a2f2f6769746875622e6769746875626173736574732e636f6d2f696d616765732f6d6f64756c65732f70726f66696c652f616368696576656d656e74732f706169722d65787472616f7264696e616972652d64656661756c742e706e67'></td>
-                    <td><img height="100px" width="100px" src='https://camo.githubusercontent.com/fa502cbbea2456c51ccfd7377262440ebf555b89b31806c52ca7cb54fba07bb5/68747470733a2f2f6769746875622e6769746875626173736574732e636f6d2f696d616765732f6d6f64756c65732f70726f66696c652f616368696576656d656e74732f796f6c6f2d64656661756c742e706e67'></td>
-                    <td></td>
+                    <td><img height="100px" width="100px"
+                            src='https://camo.githubusercontent.com/2ae0861e97bfba2d3250ceb7db103356b3b35161e273d48120199382d6eac03a/68747470733a2f2f6769746875622e6769746875626173736574732e636f6d2f696d616765732f6d6f64756c65732f70726f66696c652f616368696576656d656e74732f706169722d65787472616f7264696e616972652d64656661756c742e706e67'>
+                    </td>
+                    <td><img height="100px" width="100px"
+                            src='https://camo.githubusercontent.com/fa502cbbea2456c51ccfd7377262440ebf555b89b31806c52ca7cb54fba07bb5/68747470733a2f2f6769746875622e6769746875626173736574732e636f6d2f696d616765732f6d6f64756c65732f70726f66696c652f616368696576656d656e74732f796f6c6f2d64656661756c742e706e67'>
+                    </td>
                 </tr>
                 <tr class="small">
                     <td></td>
@@ -92,12 +150,13 @@
                 </tr>
                 <tr>
                     <td>LeetCode</td>
-                    <td><img height="100px" width="100px" src='https://assets.leetcode.com/users/images/99b27168-c5ca-420d-9453-42479b203462_1705823606.379844.png'></td>
+                    <td><img height="100px" width="100px"
+                            src='https://assets.leetcode.com/users/images/99b27168-c5ca-420d-9453-42479b203462_1705823606.379844.png'>
+                    </td>
                     <td><img height="100px" width="100px" src='Badges/leetcode-2024-50-lg.png'></td>
                     <td><img height="100px" width="100px" src='Badges/leetcode_SQL.png'></td>
                     <td><img height="100px" width="100px" src='Badges/leetcode-Introduction_to_Pandas_Badge.png'></td>
-                    <td></td>
-                    <td></td>
+                    
                 </tr>
                 <tr class="small">
                     <td></td>
@@ -105,7 +164,7 @@
                     <td>50 Days</td>
                     <td>Top SQL 50</td>
                     <td>Introduction to Pandas</td>
-                    <td></td>
+                    
                 </tr>
                 <tr>
                     <td>HackerRank</td>
@@ -130,23 +189,18 @@
                     <td><img height="100px" width="100px" src='Badges/Postman White.png'></td>
                     <td><img height="100px" width="100px" src='Badges/self_starter_hashnode.png'></td>
                     <td><img height="100px" width="100px" src='Badges/gdev-created_profile.svg'></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
+                    
                 </tr>
                 <tr class="small">
                     <td></td>
                     <td>Postman API Fundamentals Student Expert</td>
                     <td>Self Starter</td>
                     <td>Joined the Google Developer Program</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
                 </tr>
             </tbody>
         </table>
     </div>
-    
+    <!--
     <h1 id="badges-on-the-way">Badges on the way</h1>
     <div class="scrollable-table">
         <table>
@@ -159,9 +213,8 @@
                 </tr>
             </tbody>
         </table>
-    <br>
-    <a href="https://github.com/multiverseweb/Badges/">View on GitHub</a>
-    <br>
+        -->
     </div>
 </body>
+
 </html>
