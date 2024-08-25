@@ -13,7 +13,7 @@
 <img height=100px width=100px src='Badges/hackerrank_python_5.png'><img height=100px width=100px src='Badges/hackerrank_python_4.png'><img height=100px width=100px src='Badges/python_3star_hackerrank.png'><img height=100px width=100px src='Badges/hacherrank_python.png'><img height=100px width=100px src='Badges/hackerrank_python_1.png'><img height=100px width=100px src='Badges/hackerrank_sql1.png'>
 
 ### Other <img height=30px width=30px align='right' src='https://cdn-icons-png.flaticon.com/512/711/711284.png'>
-<img height=100px src='https://assets.holopin.io/eyJidWNrZXQiOiJob2xvcGluLWFzc2V0cyIsImtleSI6ImFzc2V0cy9jbDd0ZDhncDUwMTMyMDlrMHd1OHFlNHg5IiwiZWRpdHMiOnsicm90YXRlIjpudWxsfX0='><img height=100px width=100px src='Badges/Postman White.png'><img height=100px width=100px src='Badges/self_starter_hashnode.png'><img height=100px width=100px src='Badges/gdev-created_profile.svg'>
+<img height=100px width=100px src='Badges/Postman White.png'><img height=100px width=100px src='https://assets.holopin.io/eyJidWNrZXQiOiJob2xvcGluLWFzc2V0cyIsImtleSI6ImFzc2V0cy9jbGJ2ZGRhZWE4MTk3MDhsaTdqZ2Y2cHRyIiwiZWRpdHMiOnsicm90YXRlIjpudWxsfX0='><img height=100px src='https://assets.holopin.io/eyJidWNrZXQiOiJob2xvcGluLWFzc2V0cyIsImtleSI6ImFzc2V0cy9jbDd0ZDhncDUwMTMyMDlrMHd1OHFlNHg5IiwiZWRpdHMiOnsicm90YXRlIjpudWxsfX0='><img height=100px width=100px src='Badges/self_starter_hashnode.png'><img height=100px width=100px src='Badges/gdev-created_profile.svg'>
 
 <!--
 # Badges on the way
