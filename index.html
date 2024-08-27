@@ -12,6 +12,16 @@
             padding: 0;
         }
 
+        #cursor{
+            position: fixed;
+            font-size: 25px;
+            color: rgb(0, 255, 0);
+            text-shadow: 0 0 10px #11ff00;
+            z-index: 10;
+            margin-left: 10px;
+            margin-top: 20px;
+        }
+
         ::-webkit-scrollbar {
             width: 4px;
             height: 4px;
@@ -40,8 +50,8 @@
             font-weight: 600;
             text-align: center;
             color: #ffffff;
-            background-color: #2d2d2dbb;
-            backdrop-filter: blur(20px);
+            background-color: #00000048;
+            backdrop-filter: blur(2px);
             position: fixed;
             width: 100%;
             top: 0;
@@ -63,7 +73,7 @@
         }
         tr{
             color: #ffffff;
-            background-color: #2d2d2dbb;
+            background-color: #2d2d2d6d;
             backdrop-filter: blur(2px);
         }
 
@@ -105,6 +115,7 @@
 </head>
 
 <body>
+    <div id="cursor"></div>
     <p id="coding-badges" class="title">Tejas' Coding Badges</p>
     <div class="scrollable-table">
         <table>
@@ -219,6 +230,7 @@
         </table>
         -->
     </div>
+    <script src="script.js"></script>
 </body>
 
 </html>
