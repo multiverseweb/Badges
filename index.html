@@ -95,11 +95,12 @@
             margin: 0 auto;
             width: 100px;
             height: 100px;
-            filter: drop-shadow(0 0 10px rgb(0, 0, 0)) drop-shadow(0 0 2px rgb(0, 0, 0));
             transition-duration: 0.4s;
+            filter: drop-shadow(0 0 10px rgb(0, 0, 0));
         }
         img:hover{
-            filter: drop-shadow(0 0 0px rgb(0, 0, 0));
+            scale: 1.1;
+            filter: drop-shadow(0 0 10px rgb(0, 0, 0)) drop-shadow(0 0 2px rgb(0, 0, 0)) drop-shadow(0 0 2px rgb(0, 0, 0));
         }
 
         .scrollable-table {
