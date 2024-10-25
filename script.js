@@ -20,14 +20,17 @@ const modal = document.getElementById('badgeModal');
 const modalImg = document.getElementById('modalImage');
 const closeBtn = document.getElementsByClassName('close')[0];
 const images = document.querySelectorAll('.badgeImage');
+const caption = document.getElementById('caption');
 
 // When an image is clicked, open the modal
 images.forEach((img) => {
     img.onclick = function() {
         modal.style.display = 'block';
         modalImg.src = this.src;
-        document.body.classList.add('modal-open');
         document.body.style.overflow="hidden";
+        caption.textContent = this.getAttribute('alt'); // Get the name from 'alt' attribute
+        caption.style.display='block';
+        document.body.classList.add('modal-open');
     }
 });
 
