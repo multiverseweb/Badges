@@ -102,7 +102,7 @@
             filter: drop-shadow(0 0 10px rgb(0, 0, 0));
         }
 
-        img:hover {
+        .badgeImage:hover {
             scale: 1.1;
             filter: drop-shadow(0 0 10px rgb(0, 0, 0)) drop-shadow(0 0 2px rgb(0, 0, 0)) drop-shadow(0 0 2px rgb(0, 0, 0));
         }
@@ -122,10 +122,51 @@
             width: 100px;
         }
 
+        /* Modal styling */
+        .modal {
+            display: none;
+            /* Hidden by default */
+            position: fixed;
+            z-index: 100;
+            left: 0;
+            top: 0;
+            width: 100vw;
+            height: 100vh;
+            overflow: hidden;
+            background-color: rgba(0, 0, 0, 0.5);
+            backdrop-filter: blur(3px);
+        }
+
+        /* Modal Content */
+        .modal-content {
+            margin-top:50vh;
+            transform: translate(0%,-60%);
+            display: block;
+            width: 50vh;
+            height: 50vh;
+            max-width: 700px;
+        }
+
+        /* Close button */
+        .close {
+            position: absolute;
+            top: 15px;
+            right: 35px;
+            color: #fff;
+            font-size: 40px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+
         @media screen and (max-width: 830px) {
             .badgeImage {
                 height: 80px;
                 width: 80px;
+            }
+            .modal-content{
+                height: 70vw;
+                width: 70vw;
             }
         }
     </style>
@@ -163,7 +204,9 @@
                     <td><img class="badgeImage" src='Badges/sep_leetcode.png'></td>
                     <td><img class="badgeImage" src='Badges/leetCode100days2024.png'></td>
                     <td><img class="badgeImage" src='Badges/leetCodeAugust2024.png'></td>
-                    <td><img class="badgeImage" src='https://assets.leetcode.com/users/images/99b27168-c5ca-420d-9453-42479b203462_1705823606.379844.png'></td>
+                    <td><img class="badgeImage"
+                            src='https://assets.leetcode.com/users/images/99b27168-c5ca-420d-9453-42479b203462_1705823606.379844.png'>
+                    </td>
                     <td><img class="badgeImage" src='Badges/leetcode-2024-50-lg.png'></td>
                     <td><img class="badgeImage" src='Badges/leetcode_SQL.png'></td>
                     <td><img class="badgeImage" src='Badges/leetcode-Introduction_to_Pandas_Badge.png'></td>
@@ -247,8 +290,12 @@
                     <td><img class="badgeImage" src='Badges/firebase.svg'></td>
                     <td><img class="badgeImage" src='Badges/gdev-created_profile.svg'></td>
                     <td><img class="badgeImage" src='Badges/Postman White.png'></td>
-                    <td><img class="badgeImage" src='https://assets.holopin.io/eyJidWNrZXQiOiJob2xvcGluLWFzc2V0cyIsImtleSI6ImFzc2V0cy9jbGJ2ZGRhZWE4MTk3MDhsaTdqZ2Y2cHRyIiwiZWRpdHMiOnsicm90YXRlIjpudWxsfX0='></td>
-                    <td><img class="badgeImage" src='https://assets.holopin.io/eyJidWNrZXQiOiJob2xvcGluLWFzc2V0cyIsImtleSI6ImFzc2V0cy9jbDd0ZDhncDUwMTMyMDlrMHd1OHFlNHg5IiwiZWRpdHMiOnsicm90YXRlIjpudWxsfX0='></td>
+                    <td><img class="badgeImage"
+                            src='https://assets.holopin.io/eyJidWNrZXQiOiJob2xvcGluLWFzc2V0cyIsImtleSI6ImFzc2V0cy9jbGJ2ZGRhZWE4MTk3MDhsaTdqZ2Y2cHRyIiwiZWRpdHMiOnsicm90YXRlIjpudWxsfX0='>
+                    </td>
+                    <td><img class="badgeImage"
+                            src='https://assets.holopin.io/eyJidWNrZXQiOiJob2xvcGluLWFzc2V0cyIsImtleSI6ImFzc2V0cy9jbDd0ZDhncDUwMTMyMDlrMHd1OHFlNHg5IiwiZWRpdHMiOnsicm90YXRlIjpudWxsfX0='>
+                    </td>
                     <td><img class="badgeImage" src='Badges/self_starter_hashnode.png'></td>
                 </tr>
                 <tr class="small">
@@ -263,6 +310,12 @@
             </tbody>
         </table>
     </div>
+    <!-- Modal Structure -->
+    <div id="badgeModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="modalImage">
+    </div>
+
     <!--
     <h1 id="badges-on-the-way">Badges on the way</h1>
     <div class="scrollable-table">
@@ -276,8 +329,8 @@
                 </tr>
             </tbody>
         </table>
-        -->
-    </div>
+    </div>-->
     <script src="script.js"></script>
 </body>
+
 </html>
