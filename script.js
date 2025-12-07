@@ -4,12 +4,12 @@ function toggleText() {
 
     setInterval(() => {
         if (isUnderscore) {
-            div.textContent = '>_';
-        } else {
             div.textContent = '>';
+        } else {
+            div.textContent = '>_';
         }
         isUnderscore = !isUnderscore;
-    }, 1000);
+    }, 500);
 }
 
 // Call the function after the DOM is fully loaded
